@@ -21,11 +21,11 @@ Deduct amount from student balance on payment. Refund on cancellation. Ensure th
 
 Required Items for the Mini Project
 
-Technologies and Tools Java (JDK 11+) Spring Framework (Core, Context) Hibernate ORM MySQL (or H2 database) Maven/Gradle (for dependency management) IntelliJ IDEA / Eclipse (IDE) Postman or Browser (if using web interface)
-Java Classes Student (Model) Course (Model) FeeService (Service layer) StudentDAO (Data Access Layer) AppConfig (Java-based Spring Configuration using @Configuration) MainApp or Controller (Main class for interaction)
-Database Tables students (student_id, name, course_id, balance) courses (course_id, course_name, duration) payments (payment_id, student_id, amount, date)
-Configuration Files hibernate.cfg.xml or Hibernate Java Config Spring AppConfig.java with @Bean for DAO, services, and entities
-Features to Include Console-based or web-based interface for:
+1.Technologies and Tools Java (JDK 11+) Spring Framework (Core, Context) Hibernate ORM MySQL (or H2 database) Maven/Gradle (for dependency management) IntelliJ IDEA / Eclipse (IDE) Postman or Browser (if using web interface)
+2.Java Classes Student (Model) Course (Model) FeeService (Service layer) StudentDAO (Data Access Layer) AppConfig (Java-based Spring Configuration using @Configuration) MainApp or Controller (Main class for interaction)
+3.Database Tables students (student_id, name, course_id, balance) courses (course_id, course_name, duration) payments (payment_id, student_id, amount, date)
+4.Configuration Files hibernate.cfg.xml or Hibernate Java Config Spring AppConfig.java with @Bean for DAO, services, and entities
+5.Features to Include Console-based or web-based interface for:
 Menu-driven options to choose operations Real-time feedback (success/failure) Error handling and validations
 
 Proper logging (optional)
